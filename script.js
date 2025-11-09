@@ -143,12 +143,18 @@ if (resumeGrid) {
     view.target = "_blank";
     view.rel = "noopener";
     view.textContent = "View Resume";
+    view.addEventListener("click", (event) => {
+      event.stopPropagation();
+    });
 
     const download = document.createElement("a");
     download.className = "resume-btn download";
     download.href = role.file;
-    download.download = "";
+    download.download = role.file.split("/").pop();
     download.textContent = "Download Resume";
+    download.addEventListener("click", (event) => {
+      event.stopPropagation();
+    });
 
     actions.append(view, download);
     card.append(header, list, actions);
