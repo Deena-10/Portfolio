@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deenadhayalan M — Full Stack & DevOps Engineer</title>
+  <meta name="description" content="Portfolio of Deenadhayalan M – Full Stack Developer & DevOps Engineer. Java, Spring Boot, React, Cloud, Networking." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,600;1,9..144,900&family=Cabinet+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ══ HELLO LOADER ══ -->
+  <div id="hello-loader">
+    <svg viewBox="0 0 400 150" width="320" height="120">
+      <text id="hello-text" x="50%" y="55%" text-anchor="middle" dominant-baseline="middle">Hello</text>
+    </svg>
+  </div>
+
+  <!-- ══ NAV ══ -->
+  <header class="nav" id="top">
+    <div class="nav-inner">
+      <a href="#top" class="nav-logo">DM<span class="nav-logo-dot">.</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="nav-cta" href="#contact">Hire Me</a>
+    </div>
+  </header>
+
+  <!-- ══ HERO ══ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+
+    <div class="hero-inner">
+      <div class="hero-left">
+        <div class="hero-badge">
+          <span class="ping"></span>
+          Available — Full Stack · DevOps · Cloud · Networking Roles
+        </div>
+        <h1 class="hero-title">
+          <span class="hero-title-line">Full Stack</span>
+          <span class="hero-title-line hero-title-italic">Developer</span>
+          <span class="hero-title-line">& DevOps</span>
+          <span class="hero-title-line hero-title-accent">Engineer.</span>
+        </h1>
+        <p class="hero-desc">
+          I'm <strong>Deenadhayalan M</strong> — bridging React frontends with robust Java/Spring Boot backends, architecting scalable microservices, and deepening expertise in DevOps pipelines and networking to ship reliable, production-grade products.
+        </p>
+        <div class="hero-chips">
+          <span>Java & Spring Boot</span>
+          <span>React / Next.js</span>
+          <span>DevOps & CI/CD</span>
+          <span>Networking</span>
+          <span>Microservices</span>
+        </div>
+        <div class="hero-actions">
+          <a href="mailto:mdeena910@gmail.com" class="btn-primary">Connect with Me</a>
+          <a href="#projects" class="btn-outline">View Work →</a>
+          <a href="assets/Deena_SDE.pdf" download class="btn-ghost">↓ Resume</a>
+        </div>
+      </div>
+
+      <aside class="hero-card">
+        <div class="hero-card-top">
+          <span class="hero-card-label">Snapshot</span>
+          <span class="hero-card-status"><span class="ping-sm"></span>Open to work</span>
+        </div>
+        <div class="hero-card-stats">
+          <div class="hc-stat">
+            <span class="hc-stat-val">3</span>
+            <span class="hc-stat-key">Internships</span>
+            <span class="hc-stat-sub">Cloud · Full Stack · Support</span>
+          </div>
+          <div class="hc-stat">
+            <span class="hc-stat-val">4+</span>
+            <span class="hc-stat-key">Projects</span>
+            <span class="hc-stat-sub">Production & open-source</span>
+          </div>
+          <div class="hc-stat">
+            <span class="hc-stat-val">Full Stack</span>
+            <span class="hc-stat-key">Focus</span>
+            <span class="hc-stat-sub">Java · React · DevOps · Networking</span>
+          </div>
+        </div>
+        <div class="hero-card-links">
+          <a href="https://github.com/Deena-10" target="_blank" rel="noopener" class="hc-link">GitHub ↗</a>
+          <a href="https://linkedin.com/in/deenadhayalanm10" target="_blank" rel="noopener" class="hc-link">LinkedIn ↗</a>
+          <a href="https://deena-10.github.io/Portfolio" target="_blank" rel="noopener" class="hc-link">Portfolio ↗</a>
+        </div>
+      </aside>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ══ TICKER ══ -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>Full Stack Development</span><span class="ticker-sep">✦</span>
+      <span>Spring Boot & Microservices</span><span class="ticker-sep">✦</span>
+      <span>React & Next.js</span><span class="ticker-sep">✦</span>
+      <span>DevOps & CI/CD</span><span class="ticker-sep">✦</span>
+      <span>Networking & Cloud</span><span class="ticker-sep">✦</span>
+      <span>Open to Relocation</span><span class="ticker-sep">✦</span>
+      <span>Full Stack Development</span><span class="ticker-sep">✦</span>
+      <span>Spring Boot & Microservices</span><span class="ticker-sep">✦</span>
+      <span>React & Next.js</span><span class="ticker-sep">✦</span>
+      <span>DevOps & CI/CD</span><span class="ticker-sep">✦</span>
+      <span>Networking & Cloud</span><span class="ticker-sep">✦</span>
+      <span>Open to Relocation</span><span class="ticker-sep">✦</span>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ══ ABOUT ══ -->
+    <section class="section" id="about">
+      <div class="section-label reveal">Profile</div>
+      <div class="about-grid">
+        <div class="about-left reveal">
+          <h2 class="section-title">From classroom <em>projects</em> to production <em>systems.</em></h2>
+          <p class="section-desc">I combine full stack engineering, cloud-native deployments, and networking fundamentals to design, build, and ship applications that are scalable, observable, and easy to operate.</p>
+          <div class="about-stats">
+            <div class="a-stat">
+              <span class="a-num">3</span>
+              <span class="a-lbl">Internships</span>
+              <span class="a-sub">Cloud · Full Stack · Desktop</span>
+            </div>
+            <div class="a-stat">
+              <span class="a-num">4+</span>
+              <span class="a-lbl">Major Projects</span>
+              <span class="a-sub">Cab booking · E-commerce · AI</span>
+            </div>
+            <div class="a-stat">
+              <span class="a-num">Dev</span>
+              <span class="a-lbl">Focus</span>
+              <span class="a-sub">Full Stack · DevOps · Networking</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-right">
+          <div class="about-card reveal">
+            <div class="ac-icon">◈</div>
+            <h3>Career Objective</h3>
+            <p>Versatile and motivated Full Stack Developer with a solid foundation in end-to-end engineering. Passionate about learning new technologies and delivering high-quality software through teamwork, clear communication, and attention to detail.</p>
+          </div>
+          <div class="about-card reveal">
+            <div class="ac-icon">⬡</div>
+            <h3>Education Journey</h3>
+            <ul class="edu-list">
+              <li>
+                <strong>B.E. Computer Science & Engineering</strong>
+                <span>SNS College of Technology · 2023–2026 · CGPA 7.3</span>
+              </li>
+              <li>
+                <strong>Diploma in Computer Engineering</strong>
+                <span>Sri Ramakrishna Polytechnic College · 2020–2023 · 84%</span>
+              </li>
+              <li>
+                <strong>SSLC</strong>
+                <span>Vivekananda Vidyalaya Matric School · 2018–2020 · 65%</span>
+              </li>
+            </ul>
+          </div>
+          <div class="about-card reveal">
+            <div class="ac-icon">◎</div>
+            <h3>Core Capabilities</h3>
+            <div class="caps-grid">
+              <span>Java & Spring Boot</span>
+              <span>React / Next.js</span>
+              <span>REST & gRPC APIs</span>
+              <span>Docker & CI/CD</span>
+              <span>LXC/LXD & Terraform</span>
+              <span>TCP/IP & Networking</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ EXPERIENCE ══ -->
+    <section class="section" id="experience">
+      <div class="section-label reveal">Internships & Leadership</div>
+      <h2 class="section-title reveal">Experience that sharpens <em>product delivery.</em></h2>
+      <div class="timeline">
+        <div class="t-item reveal">
+          <div class="t-dot"></div>
+          <div class="t-card">
+            <div class="t-card-head">
+              <div>
+                <h3>Bluvern</h3>
+                <span class="t-role">Cloud Architect Intern</span>
+              </div>
+              <span class="t-date">Jul – Oct 2025</span>
+            </div>
+            <p>Rotational internship blending cloud architecture and product delivery for the <a href="https://blisstours.in" target="_blank" rel="noopener">Bliss Tours</a> real-time cab booking platform.</p>
+            <ul>
+              <li>Automated container provisioning using Terraform, LXC/LXD, and Go scripts with API-level resource controls.</li>
+              <li>Monitored system health via Prometheus and Grafana, enabling live migrations with zero downtime.</li>
+              <li>Contributed to full-stack deployment strategy — fixing bugs, integrating Razorpay, and shipping automated invoicing.</li>
+            </ul>
+            <div class="t-tags">
+              <span>LXC/LXD</span><span>Terraform</span><span>Prometheus</span><span>Grafana</span><span>Next.js</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="t-item reveal">
+          <div class="t-dot"></div>
+          <div class="t-card">
+            <div class="t-card-head">
+              <div>
+                <h3>Ether Infotech</h3>
+                <span class="t-role">Front-End Web Development Intern</span>
+              </div>
+              <span class="t-date">Mar – Apr 2024</span>
+            </div>
+            <p>Built responsive web pages and reusable UI components with modern HTML, CSS, and JavaScript, focusing on clean layouts and consistent design systems.</p>
+            <ul>
+              <li>Translated Figma-style designs into accessible, responsive interfaces.</li>
+              <li>Improved reusability by modularizing components and styles.</li>
+            </ul>
+            <div class="t-tags">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive Design</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="t-item reveal">
+          <div class="t-dot"></div>
+          <div class="t-card">
+            <div class="t-card-head">
+              <div>
+                <h3>Xpert Infotech</h3>
+                <span class="t-role">Desktop Support Intern</span>
+              </div>
+              <span class="t-date">Jul 2023</span>
+            </div>
+            <p>Provided hands-on hardware and software support, sharpening troubleshooting skills and customer empathy.</p>
+            <ul>
+              <li>Executed system installations and routine maintenance.</li>
+              <li>Resolved user-reported issues with quick diagnostics.</li>
+            </ul>
+            <div class="t-tags">
+              <span>Hardware Support</span><span>Networking</span><span>Troubleshooting</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ PROJECTS ══ -->
+    <section class="section" id="projects">
+      <div class="section-label reveal">Selected Work</div>
+      <h2 class="section-title reveal">Work that blends engineering, <em>DevOps,</em> and AI.</h2>
+      <p class="section-desc reveal">Projects where I focused on reliability, scalability, and real impact for users.</p>
+
+      <div class="projects-grid">
+
+        <!-- 01 Shoppino -->
+        <div class="proj-card proj-card-featured reveal">
+          <div class="proj-card-top">
+            <div class="proj-num">01</div>
+            <div class="proj-links">
+              <a href="https://github.com/Deena-10/E-commerce-Springboot-" target="_blank" rel="noopener" class="proj-link">GitHub ↗</a>
+            </div>
+          </div>
+          <h3>Shoppino — Full Stack E-Commerce</h3>
+          <p>Production-grade e-commerce app with Spring Boot 3.5 backend, React 19 frontend, complete auth (JWT + Google OAuth2 + email OTP), Razorpay payments, role-based access, and full admin panel for products &amp; orders.</p>
+          <div class="proj-feature-grid">
+            <div class="pf-item">
+              <img class="pf-icon" src="https://raw.githubusercontent.com/shuding/fluentui-emoji-unicode/main/assets/1f510_3d.png" alt="" width="28" height="28" loading="lazy">
+              <strong>Auth System</strong>
+              <span>JWT access+refresh tokens, Google OAuth2, email OTP verification, password reset</span>
+            </div>
+            <div class="pf-item">
+              <img class="pf-icon" src="https://raw.githubusercontent.com/shuding/fluentui-emoji-unicode/main/assets/1f6d2_3d.png" alt="" width="28" height="28" loading="lazy">
+              <strong>Cart &amp; Orders</strong>
+              <span>Per-user cart, order placement, "My Orders", admin order management</span>
+            </div>
+            <div class="pf-item">
+              <img class="pf-icon" src="https://raw.githubusercontent.com/shuding/fluentui-emoji-unicode/main/assets/1f4b3_3d.png" alt="" width="28" height="28" loading="lazy">
+              <strong>Razorpay Payments</strong>
+              <span>Create order on backend, frontend checkout, payment verification</span>
+            </div>
+            <div class="pf-item">
+              <img class="pf-icon" src="https://raw.githubusercontent.com/shuding/fluentui-emoji-unicode/main/assets/1f6e1_3d.png" alt="" width="28" height="28" loading="lazy">
+              <strong>Role-Based Security</strong>
+              <span>Spring Security — public, authenticated &amp; admin-only API routes</span>
+            </div>
+            <div class="pf-item">
+              <img class="pf-icon" src="https://raw.githubusercontent.com/shuding/fluentui-emoji-unicode/main/assets/1f4e6_3d.png" alt="" width="28" height="28" loading="lazy">
+              <strong>Product Management</strong>
+              <span>Admin CRUD, category browsing, search, soft-delete, stock &amp; ratings</span>
+            </div>
+            <div class="pf-item">
+              <img class="pf-icon" src="https://raw.githubusercontent.com/shuding/fluentui-emoji-unicode/main/assets/1f4e7_3d.png" alt="" width="28" height="28" loading="lazy">
+              <strong>Email Service</strong>
+              <span>Gmail SMTP — OTP verification emails &amp; password reset flows</span>
+            </div>
+          </div>
+          <div class="proj-tags" style="margin-top:16px">
+            <span>Java 17</span><span>Spring Boot 3.5</span><span>Spring Security</span>
+            <span>React 19</span><span>MySQL</span><span>JWT</span>
+            <span>Google OAuth2</span><span>Razorpay</span><span>JPA/Hibernate</span>
+          </div>
+          <div class="proj-year">2025</div>
+          <button class="proj-screens-btn" data-project="ecommerce">View Screens ↓</button>
+      <div class="work-shots" data-project="ecommerce">
+        <div class="work-carousel">
+          <div class="work-carousel-track">
+            <img src="assets/projects/ecommerce-1.png" alt="E-commerce home" />
+            <img src="assets/projects/ecommerce-2.png" alt="E-commerce product" />
+            <img src="assets/projects/ecommerce-3.png" alt="E-commerce cart" />
+            <img src="assets/projects/ecommerce-4.png" alt="E-commerce orders" />
+          </div>
+        </div>
+      </div>
+        </div>
+
+        <!-- 02 Bliss Tours -->
+        <div class="proj-card reveal">
+          <div class="proj-card-top">
+            <div class="proj-num">02</div>
+            <div class="proj-links">
+              <a href="https://blisstours.in" target="_blank" rel="noopener" class="proj-link">Live ↗</a>
+            </div>
+          </div>
+          <h3>Bliss Tours — Travel Booking Platform</h3>
+          <p>Production tour &amp; transport booking web app for a real travel business. Customers browse routes, pick vehicles, book one-way/round trips, pay via Razorpay, and receive PDF invoices with QR codes. Admins manage the full fleet, drivers, routes, and billing.</p>
+          <div class="proj-tags">
+            <span>Next.js 15</span><span>TypeScript</span><span>React 19</span>
+            <span>Tailwind</span><span>Prisma</span><span>PostgreSQL</span>
+            <span>NextAuth</span><span>Razorpay</span><span>Radix UI</span>
+          </div>
+          <div class="proj-year">2025</div>
+        </div>
+
+        <!-- 03 EduRoute AI -->
+        <div class="proj-card proj-card-featured proj-card-ai reveal">
+          <div class="proj-card-top">
+            <div class="proj-num">03</div>
+            <div class="proj-links">
+              <a href="https://github.com/Deena-10/Eduroute" target="_blank" rel="noopener" class="proj-link">GitHub ↗</a>
+            </div>
+          </div>
+          <h3>EduRoute AI — Career Roadmap Platform</h3>
+          <p>Full-stack AI-powered career guidance platform that takes a student's profile and interests, generates a personalised learning roadmap with milestones, and tracks progress — all backed by a Python/Flask AI microservice.</p>
+          <div class="proj-feature-grid">
+            <div class="pf-item">
+              <img class="pf-icon" src="https://raw.githubusercontent.com/shuding/fluentui-emoji-unicode/main/assets/26a1_3d.png" alt="" width="28" height="28" loading="lazy">
+              <strong>AI Roadmap Generation</strong>
+              <span>Questionnaire → Flask AI → personalised phases, tasks &amp; timelines</span>
+            </div>
+            <div class="pf-item">
+              <span class="pf-icon">◈</span>
+              <strong>Full Auth System</strong>
+              <span>JWT, bcrypt, Google OAuth, Firebase integration</span>
+            </div>
+            <div class="pf-item">
+              <img class="pf-icon" src="https://raw.githubusercontent.com/shuding/fluentui-emoji-unicode/main/assets/1f4ca_3d.png" alt="" width="28" height="28" loading="lazy">
+              <strong>Profile Analytics</strong>
+              <span>Streaks, skill progress bars, badges, recent activity timeline</span>
+            </div>
+            <div class="pf-item">
+              <img class="pf-icon" src="https://raw.githubusercontent.com/shuding/fluentui-emoji-unicode/main/assets/1f514_3d.png" alt="" width="28" height="28" loading="lazy">
+              <strong>Smart Notifications</strong>
+              <span>Milestone-based email alerts — events at 40%, projects at 60%, jobs at 80%</span>
+            </div>
+            <div class="pf-item">
+              <span class="pf-icon">⬡</span>
+              <strong>Microservice Architecture</strong>
+              <span>React frontend + Node/Express API + Python Flask AI service</span>
+            </div>
+            <div class="pf-item">
+              <span class="pf-icon">◎</span>
+              <strong>Gamified Learning</strong>
+              <span>Streak tracking, achievement badges, completion metrics &amp; quiz accuracy</span>
+            </div>
+          </div>
+          <div class="proj-tags" style="margin-top:16px">
+            <span>React</span><span>Node.js</span><span>Express</span>
+            <span>Python</span><span>Flask</span><span>MySQL</span>
+            <span>JWT</span><span>Google OAuth</span><span>Firebase</span><span>MUI</span>
+          </div>
+          <div class="proj-year">2025</div>
+          <a href="https://eduroute-gce9.onrender.com/" target="_blank" rel="noopener" class="proj-screens-btn">Live Demo ↗</a>
+        </div>
+<!-- 04 Zippy Learner -->
+        <div class="proj-card reveal">
+          <div class="proj-card-top">
+            <div class="proj-num">04</div>
+            <div class="proj-links">
+              <a href="https://github.com/Deena-10/E-learning" target="_blank" rel="noopener" class="proj-link">GitHub ↗</a>
+            </div>
+          </div>
+          <h3>Zippy Learner — E-Learning Platform</h3>
+          <p>Static multi-page e-learning site with a course catalog (8 subjects), YouTube-embedded course pages, live search, about/contact, and a demo login — built as a fully responsive front-end prototype.</p>
+          <div class="proj-tags">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Formspree</span>
+          </div>
+          <div class="proj-year">2024</div>
+          <button class="proj-screens-btn" data-project="elearning">View Screens ↓</button>
+      <div class="work-shots" data-project="elearning">
+        <div class="work-carousel">
+          <div class="work-carousel-track work-carousel-track--3">
+            <img src="assets/projects/elearning-1.png" alt="E-learning home" />
+            <img src="assets/projects/elearning-2.png" alt="E-learning course" />
+            <img src="assets/projects/elearning-3.png" alt="E-learning content" />
+          </div>
+        </div>
+      </div>
+        </div>
+
+        <!-- 05 HomeServ -->
+        <div class="proj-card proj-card-ongoing reveal">
+          <div class="proj-card-top">
+            <div class="proj-num">05</div>
+            <div class="proj-links">
+              <span class="proj-badge-ongoing">Ongoing</span>
+              <a href="https://github.com/Deena-10" target="_blank" rel="noopener" class="proj-link">GitHub ↗</a>
+            </div>
+          </div>
+          <h3>HomeServ — Microservices Marketplace</h3>
+          <p>Microservices-based marketplace for home services using Spring Cloud (Eureka, Config Server), gRPC + REST inter-service communication, and containerized Docker deployment.</p>
+          <div class="proj-tags">
+            <span>Spring Cloud</span><span>Microservices</span>
+            <span>gRPC</span><span>PostgreSQL</span><span>Docker</span>
+          </div>
+          <div class="proj-year">2025</div>
+        </div>
+
+        
+      </div>
+
+    </section>
+
+    <!-- ══ SERVICES ══ -->
+    <section class="section services-section">
+      <div class="section-label reveal">How I Can Help</div>
+      <h2 class="section-title reveal">Bringing structure to <em>shipping</em> software.</h2>
+      <div class="services-grid">
+        <div class="svc-card reveal">
+          <span class="svc-icon">◈</span>
+          <h3>Full Stack Development</h3>
+          <p>End-to-end feature delivery across React frontends and Java/Spring Boot backends, backed by relational databases and clean REST APIs.</p>
+        </div>
+        <div class="svc-card reveal">
+          <span class="svc-icon">⬡</span>
+          <h3>DevOps & Automation</h3>
+          <p>CI/CD pipelines, Docker containerisation, Terraform provisioning, and Jenkins automation to streamline the development-to-deployment lifecycle.</p>
+        </div>
+        <div class="svc-card reveal">
+          <span class="svc-icon">◎</span>
+          <h3>Cloud & Networking</h3>
+          <p>LXC/LXD containers, observability with Prometheus & Grafana, plus solid networking fundamentals — TCP/IP, DNS, load balancing, and secure API design.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ SKILLS ══ -->
+    <section class="section" id="skills">
+      <div class="section-label reveal">Technical Stack</div>
+      <h2 class="section-title reveal">Skills that keep teams <em>shipping.</em></h2>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <h4>Languages</h4>
+          <div class="skill-pills">
+            <span>Java</span><span>JavaScript</span><span>TypeScript</span>
+            <span>SQL</span><span>Python</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h4>Backend & APIs</h4>
+          <div class="skill-pills">
+            <span>Spring Boot</span><span>Spring MVC</span><span>Hibernate</span>
+            <span>JPA</span><span>Microservices</span><span>REST APIs</span>
+            <span>JWT</span><span>gRPC</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h4>Frontend</h4>
+          <div class="skill-pills">
+            <span>React.js</span><span>Next.js</span><span>HTML5</span>
+            <span>CSS3</span><span>Tailwind CSS</span><span>Responsive Design</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h4>Databases</h4>
+          <div class="skill-pills">
+            <span>MySQL</span><span>PostgreSQL</span><span>MongoDB</span><span>Prisma ORM</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h4>DevOps & Observability</h4>
+          <div class="skill-pills">
+            <span>Git</span><span>Maven</span><span>Docker</span><span>Terraform</span>
+            <span>Jenkins</span><span>CI/CD</span><span>LXC/LXD</span>
+            <span>Prometheus</span><span>Grafana</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h4>Networking & Security</h4>
+          <div class="skill-pills">
+            <span>TCP/IP</span><span>HTTP/HTTPS</span><span>DNS</span>
+            <span>Load Balancing</span><span>JWT</span><span>OAuth2</span>
+            <span>Postman</span><span>Swagger</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ CERTIFICATIONS ══ -->
+    <section class="section" id="certifications">
+      <div class="section-label reveal">Continuous Learning</div>
+      <h2 class="section-title reveal">Certifications & <em>Wins.</em></h2>
+      <div class="certs-grid">
+        <div class="cert-card reveal">
+          <div class="cert-icon">⚙</div>
+          <h3>Software Engineering & Agile Software Development</h3>
+          <span class="cert-issuer">Infosys Limited / Springboard · Dec 31, 2021</span>
+          <p>Agile methodology, SDLC practices, and modern software engineering principles.</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon">☁</div>
+          <h3>Introduction to Cloud Computing</h3>
+          <span class="cert-issuer">Infosys Limited / Springboard · Mar 27, 2025</span>
+          <p>IaaS, PaaS, SaaS models and foundational cloud deployment practices.</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon">🗄</div>
+          <h3>Introduction to Data Engineering and Bigdata</h3>
+          <span class="cert-issuer">GUVI Geek Networks · Mar 25, 2025</span>
+          <p>Foundations of data engineering pipelines and big data processing concepts.</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon">🔒</div>
+          <h3>Privacy and Security in Online Social Media</h3>
+          <span class="cert-issuer">NPTEL (IIIT Hyderabad & IIT Madras) · Jan–Apr 2025</span>
+          <p>Privacy risks, security practices, and safe usage patterns across social media platforms.</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon">◈</div>
+          <h3>Java Full Stack Developer</h3>
+          <span class="cert-issuer">Elysium Academy · Oct 2024 – Apr 2025</span>
+          <p>HTML, CSS, JavaScript, React, Core Java, Spring Boot, JDBC, MySQL, and Software Testing fundamentals.</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon">🔷</div>
+          <h3>Azure AI Fundamentals</h3>
+          <span class="cert-issuer">Microsoft · Sep 26, 2025</span>
+          <p>Foundational AI/ML concepts and Microsoft Azure AI services.</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon">⬡</div>
+          <h3>Selenium Basics</h3>
+          <span class="cert-issuer">Infosys Limited / Springboard · Nov 08, 2025</span>
+          <p>Automated web testing capabilities with Selenium fundamentals.</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon">🌐</div>
+          <h3>Networking Basics</h3>
+          <span class="cert-issuer">Cisco Networking Academy · Jun 29, 2026</span>
+          <p>TCP/IP fundamentals, network devices, and core networking concepts.</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon">🐧</div>
+          <h3>Linux Essentials</h3>
+          <span class="cert-issuer">Cisco Networking Academy · Jul 13, 2026</span>
+          <p>Core Linux command line, file systems, and system administration basics.</p>
+        </div>
+      </div>
+      <div class="achievements reveal">
+        <h3>Achievements</h3>
+        <div class="ach-list">
+          <div class="ach-item">
+            <span class="ach-prize">📄 Paper</span>
+            <div>
+              <strong>Technical Paper Presentation — 2021</strong>
+              <span>Sri Ramakrishna Polytechnic College</span>
+            </div>
+          </div>
+          <div class="ach-item">
+            <span class="ach-prize">🥈 2nd Prize</span>
+            <div>
+              <strong>Project Expo 2023</strong>
+              <span>Developed E-Learning Mobile Application</span>
+            </div>
+          </div>
+          <div class="ach-item">
+            <span class="ach-prize">🏆 Winner</span>
+            <div>
+              <strong>IE(I) Student Chapter</strong>
+              <span>Prize winner — technical competition</span>
+            </div>
+          </div>
+          <div class="ach-item">
+            <span class="ach-prize">🎖️ Merit</span>
+            <div>
+              <strong>Certificate of Merit — 2019</strong>
+              <span>School Annual Sports Day</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ TESTIMONIAL ══ -->
+    <section class="testimonial-section reveal">
+      <div class="testimonial-inner">
+        <div class="testimonial-quote-mark">"</div>
+        <p class="testimonial-quote">Every project is a chance to write code that future teammates will enjoy working with — clear, tested, and aligned with real user needs.</p>
+        <p class="testimonial-attr">— How I like to show up on teams</p>
+      </div>
+    </section>
+
+    <!-- ══ CONTACT ══ -->
+    <section class="section" id="contact">
+      <div class="section-label reveal">Let's Collaborate</div>
+      <h2 class="section-title reveal">Ready to elevate your <em>next release?</em></h2>
+      <p class="section-desc reveal">Let's talk about how I can support your engineering team — full stack development, DevOps automation, or cloud/networking roles.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Direct Contact</h3>
+          <div class="contact-links">
+            <a href="mailto:mdeena910@gmail.com" class="contact-link">
+              <span class="cl-icon">@</span>
+              mdeena910@gmail.com
+            </a>
+            <a href="tel:+917540026828" class="contact-link">
+              <span class="cl-icon">✆</span>
+              +91 75400 26828
+            </a>
+          </div>
+          <div class="contact-socials">
+            <a href="https://linkedin.com/in/deenadhayalanm10" target="_blank" rel="noopener" class="soc-pill">LinkedIn ↗</a>
+            <a href="https://github.com/Deena-10" target="_blank" rel="noopener" class="soc-pill">GitHub ↗</a>
+            <a href="https://deena-10.github.io/Portfolio" target="_blank" rel="noopener" class="soc-pill">Portfolio ↗</a>
+          </div>
+          <div class="contact-languages">
+            <span class="cl-tag">Tamil</span>
+            <span class="cl-tag">English</span>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" action="https://formspree.io/f/xpwzpyaw" method="POST">
+          <div class="form-row">
+            <label>Name
+              <input type="text" name="name" required placeholder="Jane Doe" />
+            </label>
+            <label>Email
+              <input type="email" name="_replyto" required placeholder="you@example.com" />
+            </label>
+          </div>
+          <label>Subject
+            <input type="text" name="subject" placeholder="Role or opportunity" />
+          </label>
+          <label>Message
+            <textarea name="message" rows="5" required placeholder="Share role details, expectations, or questions."></textarea>
+          </label>
+          <div class="form-footer">
+            <button type="submit" class="btn-primary">Send Message →</button>
+            <p class="privacy-note">No spam, ever.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══ FOOTER ══ -->
+  <footer class="footer">
+    <div class="footer-left">
+      <span class="footer-logo">DM<span class="nav-logo-dot">.</span></span>
+      <span>© <span id="year"></span> Deenadhayalan M. Crafted with quality-first principles.</span>
+    </div>
+    <a href="#top" class="back-to-top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
